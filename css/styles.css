@@ -1,11 +1,12 @@
 .einstein {
   padding-left: 30%;
 }
-.jumbotron {
-  background-image: url("../img/justice.jpg");
-  background-size: cover;
-  color: white;
-}
 .main-body {
   background-color: grey;
+}
+#intro2 {
+  display: none;
+}
+#intro3 {
+  display: none;
 }
