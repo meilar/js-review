@@ -2,11 +2,29 @@
   padding-left: 30%;
 }
 .main-body {
-  background-color: grey;
+  background-color: white;
 }
 #intro2 {
   display: none;
 }
 #intro3 {
   display: none;
+}
+.navbar .nav li .dropdown-menu li a {
+  white-space: normal;
+}
+.test-form {
+  margin: 30px;
+}
+.question {
+  margin-top: 30px;
+}
+.q6 {
+  margin-bottom: 30px;
+}
+.result {
+  display: none;
+}
+.form-check {
+  padding-top: 10px;
 }

@@ -81,12 +81,12 @@ Chaotic evil beings believe their alignment is the best because it combines self
 
 Chaotic evil is the most dangerous alignment because it represents the destruction not only of beauty and life but also of the order on which beauty
 
-highly skilled musician, charismatic (piano)
-highly skilled musician, fades into the background (drummer)
+highly skilled musician, charismatic (drummer)
+highly skilled musician, fades into the background (piano)
 highly skilled musician, not cool (violin)
 workmanlike musicians, charismatic (lead guitar)
 workmanlike musician, fades into the background (bass)
 workmanlike musician, not cool (rhythm guitar)
 sloppy musician, charismatic (lead vocal)
 sloppy musician, fades into the background (weird person in the back with the laptop)
-sloppy musician, not cool, hand percussion 
+sloppy musician, not cool (saxophone)

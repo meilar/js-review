@@ -1,10 +1,9 @@
 <!doctype html>
-
 <html lang="en">
 
 <head>
   <meta charset="utf-8">
-  <title>Web Starter</title>
+  <title>Instrument Finder</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
@@ -12,17 +11,206 @@
   <link rel="stylesheet" href="css/styles.css">
 
 </head>
-<div class="container">
-  <div class="jumbotron">
-    <h1 class="display-4" id="intro1">What are you made of?</h1>
-    <p class="lead" id="intro2">The most dangerous place to look is within...</p>
-    <p><span class="einstein" id="intro3"><em>Albert Einstein</em></span></p>
-  </div>
-  <div class="main-body">
-  </div>
-</div>
 
 <body>
+  <div class="container">
+    <div class="jumbotron">
+      <h1 class="display-4" id="intro1">What are you made of?</h1>
+      <p class="lead" id="intro2">The most dangerous place to look is within...</p>
+      <p><span class="einstein" id="intro3"><em>Albert Einstein</em></span></p>
+    </div>
+    <div class="main-body">
+      <h2> Quiz Heading</h2>
+      <p>BLAH BLAH DESCRIPTION</p>
+      <div class="test-form">
+        <form id="assessment">
+          <div class="question q1">
+            <h4>You're browsing autos for sale, which listing do you click on first?</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id=car1 value="car1" checked>
+              <label class="form-check-label" for="question1">
+                A reliable PLUG IN HYBRID, because a car is a tool to get you from point A to point B.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id=car2 value="car2">
+              <label class="form-check-label" for="question1">
+                A SPORTSCAR, because you like to be noticed, and life is too short to drive slow.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question1" id=car3 value="car3">
+              <label class="form-check-label" for="question1">
+                A VAN, because the wolf mural on the back is totally rad.
+              </label>
+            </div>
+            <div class="question q2">
+              <h4>Choose the 1998 movie nominated for Best Picture that best describes you</h4>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id=movie1 value="movie1" checked>
+                <label class="form-check-label" for="movie1">
+                  <em>L.A. Confidential</em>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id=movie2 value="movie2">
+                <label class="form-check-label" for="movie2">
+                  <em>Good Will Hunting</em>
+                </label>
+              </div>
+              <div class="form-check">
+                <input class="form-check-input" type="radio" name="question2" id=movie3 value="movie3">
+                <label class="form-check-label" for="movie3">
+                  <em>The Full Monty</em>
+                </label>
+              </div>
+              <div class="question q3">
+                <h4>You decide on a whim to become a poet. You are going to read at a poetry open mic. You post about the reading on social media. How many of your friends show up?</h4>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question3" id=friends1 value="friends1" checked>
+                  <label class="form-check-label" for="friends1">
+                    <em>0-2</em>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question3" id=friends2 value="friends2">
+                  <label class="form-check-label" for="friends2">
+                    <em>3-5</em>
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="question3" id=friends3 value="friends3">
+                  <label class="form-check-label" for="friends3">
+                    <em>6+</em>
+                  </label>
+                </div>
+                <div class="question q4">
+                  <h4>You have guests coming over later today. Choose the statement which most applies to you:</h4>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id=bathroom1 value="bathroom1" checked>
+                    <label class="form-check-label" for="bathroom1">
+                      My bathroom is already clean, it doesn’t need any extra work.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id=bathroom2 value="bathroom2">
+                    <label class="form-check-label" for="bathroom2">
+                      I’m not a slob, I’ll give my bathroom a quick once-over.
+                    </label>
+                  </div>
+                  <div class="form-check">
+                    <input class="form-check-input" type="radio" name="question4" id=bathroom3 value="bathroom3">
+                    <label class="form-check-label" for="bathroom3">
+                      Yeah… the bathroom is what it is.
+                    </label>
+                  </div>
+                  <div class="question q5">
+                    <h4>How do you keep notes?</h4>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="question5" id=notes1 value="notes1" checked>
+                      <label class="form-check-label" for="notes1">
+                        Computerized notes, uploaded to the cloud, accessible on phone, computer and tablet.
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="question4" id=notes2 value="notes2">
+                      <label class="form-check-label" for="notes2">
+                        A well-organized notebook.
+                      </label>
+                    </div>
+                    <div class="form-check">
+                      <input class="form-check-input" type="radio" name="question4" id=notes3 value="notes3">
+                      <label class="form-check-label" for="notes3">
+                        On the back of receipts you keep in a special pocket.
+                      </label>
+                    </div>
+                    <div class="question q6">
+                      <h2>Which is best on a hot day?</h2>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question6" id=drink1 value="drink1" checked>
+                        <label class="form-check-label" for="drink1">
+                          A quaffable frosé.
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question6" id=drink2 value="drink2">
+                        <label class="form-check-label" for="drink2">
+                          A sweet summer sangria.
+                        </label>
+                      </div>
+                      <div class="form-check">
+                        <input class="form-check-input" type="radio" name="question6" id=drink3 value="drink3">
+                        <label class="form-check-label" for="drink3">
+                          A bubbly wine cooler.
+                        </label>
+                      </div>
+                    </div>
+                    <div class="sub-but">
+                      <button type="submit" class="btn btn-dark mb-2">Show me my instrument!</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <div class="result">
+      <div class="answer" id=a11>
+        <h4>You play DRUMS!</h4>
+        <img></img>
+        <p>You are a highly skilled musician, and most people don't even notice because you look so cool. Nobody in the band is going to fuck with you because you are in control of the time and nobody wins when the drummer is mad. You probably have
+          good hair.</p>
+      </div>
+      <div class="answer" id=a12>
+        <h4>You play KEYBOARDS!</h4>
+        <img></img>
+        <p>All of those years of piano lessons have payed off, and now you get to tour around and play easy parts you could do in your sleep. Your bandmates will ask you to referee musical questions, but you don't like being the center of attention.
+          You like wearing sunglasses on stage so that people in the audience can't see how bored you are.</p>
+      </div>
+      <div class="answer" id=a13>
+        <h4>You play VIOLIN!</h4>
+        <img></img>
+        <p>All those years of lessons and here you are to play the intro on a couple of songs. You don't tell people you play in a rock band because they look so disappointed when you tell them what you play. Even you think you can be replaced by a
+          sample played from a laptop.</p>
+      </div>
+      <div class="answer" id=a21>
+        <h4>You play RHYTHM GUITAR!</h4>
+        <img></img>
+        <p>Listen, there's only room for one guitar solo chasing diva in a band, and it didn't end up to be you. That's ok, though, playing in perfect time with drums and bass is harder than it looks, and your midlife crisis is going to be 80% less
+          embarassing. Also, none of your bandmates will figure out that you own the copyright to all of your songs for another 10 years.</p>
+      </div>
+      <div class="answer" id=a22>
+        <h4>You play BASS!</h4>
+        <img></img>
+        <p>You're the person in the band who holds down the bottom. Keeping good time with the drums isn't easy, but let's be real: you play one note at a time on an instrument with only four strings. You don't stand out on stage but look cool
+          anytime someone looks over to you. You are probably bisexual, and none of your bandmates realize that you run the instagram page and all of their social media fans are really your fans.</p>
+      </div>
+      <div class="answer" id=a23>
+        <h4>You play LEAD GUITAR!</h4>
+        <img></img>
+        <p>Your favorite things to say are "Can you turn me up?" and "I think this would be a great place for a guitar solo." You watched <em>A Goofy Movie</em> when you were four years old and thought Max was the coolest in the world. You decided
+          you were going to play guitar, and you never revisited that dream. Your pal who plays rhythm guitar is probably a better player but you have more pedals.</p>
+      </div>
+      <div class="answer" id=a31>
+        <h4>You are the LEAD SINGER!</h4>
+        <img></img>
+        <p>You are the face of the band. You like answering questions about the deep meaning of your songs, even though technically speaking all of your songs are written by the bass player. You're not so big on "practicing" or "counting" or "getting
+          the right notes," but the fans are used to seeing you so it's too late to make any changes.</p>
+      </div>
+      <div class="answer" id=a32>
+        <h4>You are the WEIRD PERSON IN THE BACK WITH A LAPTOP!</h4>
+        <img></img>
+        <p>You didn't get into music to set up laptops on stage and click a mouse to trigger samples. In fact, you can play every instrument in the band. Unfortunately, you were better at using computers than the rest of your bandmates, and when it
+          came time to set up the tour, all of the better instruments were taken. At least this way you can pretend to be a DJ on Tinder.</p>
+      </div>
+      <div class="answer" id=a33>
+        <h4>You play the SAXOPHONE!</h4>
+        <img></img>
+        <p>Ten years ago your band had a radio hit with a saxophone solo on it. They put a sax solo in to be ironic, but now they have to pay you to go along with them whenever they go on tour. Your best friend is the person who plays handbells, you
+          both have a lot of downtime.</p>
+      </div>
+    </div>
 </body>
 
 </html>
