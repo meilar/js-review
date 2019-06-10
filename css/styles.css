@@ -25,3 +25,8 @@
 #again {
   display: none;
 }
+img {
+  height: 200px;
+  width: auto;
+  padding-bottom: 30px;
+}
