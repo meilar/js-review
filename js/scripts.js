@@ -1,6 +1,16 @@
 $(document).ready(function() {
-  alert("hello");
-  event.onload(){
-    $("p#intro2").slideDown("slow");
-  }
+  $("form#assessment").submit(function(event) {
+    if (bathroom1.checked && friends1.checked) {
+      $("#a11").show();
+      alert("condition yes");
+    } else {
+      alert("empty")
+    }
+    $(".main-body").hide();
+    $("#again").show();
+    event.preventDefault();
+  });
+  $("button#again").click(function() {
+    location.reload(true);
+  });
 });

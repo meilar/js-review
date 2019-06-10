@@ -4,12 +4,6 @@
 .main-body {
   background-color: white;
 }
-#intro2 {
-  display: none;
-}
-#intro3 {
-  display: none;
-}
 .navbar .nav li .dropdown-menu li a {
   white-space: normal;
 }
@@ -22,9 +16,12 @@
 .q6 {
   margin-bottom: 30px;
 }
-.result {
+.answer {
   display: none;
 }
 .form-check {
   padding-top: 10px;
+}
+#again {
+  display: none;
 }
