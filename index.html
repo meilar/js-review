@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="en">
-
 <head>
   <meta charset="utf-8">
   <title>Instrument Finder</title>
@@ -9,9 +8,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
   <script src="js/scripts.js"></script>
   <link rel="stylesheet" href="css/styles.css">
-
 </head>
-
 <body>
   <div class="container">
     <div class="jumbotron">
@@ -25,7 +22,7 @@
       </div>
       <div class="test-form">
         <form id="assessment">
-          <div class="question q1">
+          <div class="question q1 card">
             <h4>You are browsing the autos for sale section of Craigslist, which listing do you click on first?</h4>
             <div class="form-check">
               <input class="form-check-input" type="radio" name="question1" id=car1 value="car1" checked>
@@ -45,171 +42,196 @@
                 A VAN, because the wolf mural on the back is totally rad.
               </label>
             </div>
-            <div class="question q2">
-              <h4>Choose the movie nominated for Best Picture in 1998 that best describes you</h4>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="question2" id=movie1 value="movie1" checked>
-                <label class="form-check-label" for="movie1">
-                  <em>L.A. Confidential</em>
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="question2" id=movie2 value="movie2">
-                <label class="form-check-label" for="movie2">
-                  <em>Good Will Hunting</em>
-                </label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="question2" id=movie3 value="movie3">
-                <label class="form-check-label" for="movie3">
-                  <em>The Full Monty</em>
-                </label>
-              </div>
-              <div class="question q3">
-                <h4>You decide to become a poet, and you are going to read at your very first open mic. You post about the reading on social media. How many of your friends show up?</h4>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question3" id=friends3 value="friends3" checked>
-                  <label class="form-check-label" for="friends3">
-                    0-2
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question3" id=friends2 value="friends2">
-                  <label class="form-check-label" for="friends2">
-                    3-5
-                  </label>
-                </div>
-                <div class="form-check">
-                  <input class="form-check-input" type="radio" name="question3" id=friends1 value="friends1">
-                  <label class="form-check-label" for="friends1">
-                    6+
-                  </label>
-                </div>
-                <div class="question q4">
-                  <h4>You have guests coming over later today. Choose the statement which most applies to you:</h4>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="question4" id=bathroom1 value="bathroom1" checked>
-                    <label class="form-check-label" for="bathroom1">
-                      My bathroom is already clean, it doesn’t need any extra work.
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="question4" id=bathroom2 value="bathroom2">
-                    <label class="form-check-label" for="bathroom2">
-                      I’m not a slob, I’ll give my bathroom a quick once-over.
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="question4" id=bathroom3 value="bathroom3">
-                    <label class="form-check-label" for="bathroom3">
-                      The bathroom is what it is. If you can't handle me at my messiest, you don't deserve me at my cleanest.
-                    </label>
-                  </div>
-                  <div class="question q5">
-                    <h4>How do you keep notes?</h4>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="question5" id=notes1 value="notes1" checked>
-                      <label class="form-check-label" for="notes1">
-                        On an app that uploads to the cloud. You can access them from your phone, computer, or tablet.
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="question4" id=notes2 value="notes2">
-                      <label class="form-check-label" for="notes2">
-                        You keep notes in a well-organized notebook.
-                      </label>
-                    </div>
-                    <div class="form-check">
-                      <input class="form-check-input" type="radio" name="question4" id=notes3 value="notes3">
-                      <label class="form-check-label" for="notes3">
-                        You keep notes on the back of receipts. You can always find them again because they go in a special pocket.
-                      </label>
-                    </div>
-                    <div class="question q6">
-                      <h2>Which is the best drink for a hot day?</h2>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question6" id=drink1 value="drink1" checked>
-                        <label class="form-check-label" for="drink1">
-                          A quaffable frosé.
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question6" id=drink2 value="drink2">
-                        <label class="form-check-label" for="drink2">
-                          A sweet summer sangria.
-                        </label>
-                      </div>
-                      <div class="form-check">
-                        <input class="form-check-input" type="radio" name="question6" id=drink3 value="drink3">
-                        <label class="form-check-label" for="drink3">
-                          A crisp and refreshing wine cooler.
-                        </label>
-                      </div>
-                    </div>
-                    <button type="submit" class="btn btn-dark mb-2">Show me my instrument!</button>
-                    </div>
-                </div>
-              </div>
+          </div>
+          <div class="question q2 card">
+            <h4>Choose the movie nominated for Best Picture in 1998 that best describes you</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id=movie1 value="movie1" checked>
+              <label class="form-check-label" for="movie1">
+                <em>L.A. Confidential</em>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id=movie2 value="movie2">
+              <label class="form-check-label" for="movie2">
+                <em>Good Will Hunting</em>
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question2" id=movie3 value="movie3">
+              <label class="form-check-label" for="movie3">
+                <em>The Full Monty</em>
+              </label>
             </div>
           </div>
+          <div class="question q3 card">
+            <h4>You decide to become a poet, and you are going to read at your very first open mic. You post about the reading on social media. How many of your friends show up?</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id=friends3 value="friends3" checked>
+              <label class="form-check-label" for="friends3">
+                0-2
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id=friends2 value="friends2">
+              <label class="form-check-label" for="friends2">
+                3-5
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question3" id=friends1 value="friends1">
+              <label class="form-check-label" for="friends1">
+                6+
+              </label>
+            </div>
+          </div>
+          <div class="question q4 card">
+            <h4>You have guests coming over later today. Choose the statement which most applies to you:</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id=bathroom1 value="bathroom1" checked>
+              <label class="form-check-label" for="bathroom1">
+                My bathroom is already clean, it doesn’t need any extra work.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id=bathroom2 value="bathroom2">
+              <label class="form-check-label" for="bathroom2">
+                I’m not a slob, I’ll give my bathroom a quick once-over.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question4" id=bathroom3 value="bathroom3">
+              <label class="form-check-label" for="bathroom3">
+                The bathroom is what it is. If you can't handle me at my messiest, you don't deserve me at my cleanest.
+              </label>
+            </div>
+          </div>
+          <div class="question q5 card">
+            <h4>How do you keep notes?</h4>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id=notes1 value="notes1" checked>
+              <label class="form-check-label" for="notes1">
+                On an app that uploads to the cloud. You can access them from your phone, computer, or tablet.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id=notes2 value="notes2">
+              <label class="form-check-label" for="notes2">
+                You keep notes in a well-organized notebook.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question5" id=notes3 value="notes3">
+              <label class="form-check-label" for="notes3">
+                You keep notes on the back of receipts. You can always find them again because they go in a special pocket.
+              </label>
+            </div>
+          </div>
+          <div class="question q6 card">
+            <h2>Which is the best drink for a hot day?</h2>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question6" id=drink1 value="drink1" checked>
+              <label class="form-check-label" for="drink1">
+                A quaffable frosé.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question6" id=drink2 value="drink2">
+              <label class="form-check-label" for="drink2">
+                A sweet summer sangria.
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="question6" id=drink3 value="drink3">
+              <label class="form-check-label" for="drink3">
+                A crisp and refreshing wine cooler.
+              </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dark mb-2">Show me my instrument!</button>
         </form>
       </div>
     </div>
     <div class="result">
-      <div class="answer" id=a11>
-        <h4>You play DRUMS!</h4>
-        <img src="http://vagendamagazine.com/wp-content/uploads/2014/12/femaledrummer.jpeg">
-        <p>You are a highly skilled musician, and most people don't even notice because you look so cool. Nobody in the band is going to fuck with you because you are in control of the time and nobody wins when the drummer is mad. You probably have
-          good hair.</p>
+      <div class="answer card" style="width: 32rem;" id=a11>
+        <img class="card-img-top" src="http://vagendamagazine.com/wp-content/uploads/2014/12/femaledrummer.jpeg">
+        <div class="card-body">
+          <h4 class="card-title">You play DRUMS!</h4>
+          <p class="card-text">You are a highly skilled musician, and most people don't even notice because you look so cool. Nobody in the band is going to fuck with you because you are in control of the time and nobody wins when the drummer is mad.
+            You probably have
+            good hair.</p>
+        </div>
       </div>
-      <div class="answer" id=a21>
-        <h4>You play KEYBOARDS!</h4>
-        <img src="https://static01.nyt.com/images/2011/10/09/arts/09SYNTHGIRLS3/09SYNTHGIRLS3-jumbo.jpg">
-        <p>All of those years of piano lessons have payed off, and now you get to tour around and play easy parts you could do in your sleep. Your bandmates will ask you to referee musical questions, but you don't like being the center of attention.
-          You like wearing sunglasses on stage so that people in the audience can't see how bored you are.</p>
+      <div class="answer card" style="width: 32rem;" id=a21>
+        <img class="card-img-top" src="https://static01.nyt.com/images/2011/10/09/arts/09SYNTHGIRLS3/09SYNTHGIRLS3-jumbo.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play KEYBOARDS!</h4>
+          <p class="card-text">All of those years of piano lessons have payed off, and now you get to tour around and play easy parts you could do in your sleep. Your bandmates will ask you to referee musical questions, but you don't like being the center of attention. You like wearing sunglasses on stage so that people in the audience can't see how bored you are.</p>
+        </div>
       </div>
-      <div class="answer" id=a31>
-        <h4>You play VIOLIN!</h4>
-        <img src="http://www.fiddlingaround.co.uk/Resources/mark%20wood.jpg">
-        <p>All those years of lessons and here you are to play the intro on a couple of songs. You don't tell people you play in a rock band because they look so disappointed when you tell them what you play. Even you think you can be replaced by a
-          sample played from a laptop.</p>
+      <div class="answer card" style="width: 32rem;" id=a31>
+        <img class="card-img-top" src="http://www.fiddlingaround.co.uk/Resources/mark%20wood.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play VIOLIN!</h4>
+          <p class="card-text">All those years of lessons and here you are to play the intro on a couple of songs. You don't tell people you play in a rock band because they look so disappointed when you tell them what you play. Even you think you
+            can be replaced by a
+            sample played from a laptop.</p>
+        </div>
       </div>
-      <div class="answer" id=a12>
-        <h4>You play RHYTHM GUITAR!</h4>
-        <img src="https://img.buzzfeed.com/buzzfeed-static/static/campaign_images/webdr05/2013/5/22/14/this-very-bored-looking-14-year-old-girl-covering-1-10812-1369246041-6_big.jpg">
-        <p>Listen, there's only room for one guitar solo chasing diva in a band, and it didn't end up to be you. That's ok, though, playing in perfect time with drums and bass is harder than it looks, and your midlife crisis is going to be 80% less
-          embarassing. Also, none of your bandmates will figure out that you own the copyright to all of your songs for another 10 years.</p>
+      <div class="answer card" style="width: 32rem;" id=a12>
+        <img class="card-img-top" src="https://img.buzzfeed.com/buzzfeed-static/static/campaign_images/webdr05/2013/5/22/14/this-very-bored-looking-14-year-old-girl-covering-1-10812-1369246041-6_big.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play RHYTHM GUITAR!</h4>
+          <p class="card-text">Listen, there's only room for one guitar solo chasing diva in a band, and it didn't end up to be you. That's ok, though, playing in perfect time with drums and bass is harder than it looks, and your midlife crisis is
+            going to be 80% less
+            embarassing. Also, none of your bandmates will figure out that you own the copyright to all of your songs for another 10 years.</p>
+        </div>
       </div>
-      <div class="answer" id=a22>
-        <h4>You play BASS!</h4>
-        <img src="https://i.ytimg.com/vi/_F5I5g8siFo/maxresdefault.jpg">
-        <p>You're the person in the band who holds down the bottom. Keeping good time with the drums isn't easy, but let's be real: you play one note at a time on an instrument with only four strings. You don't stand out on stage but look cool
-          anytime someone looks over to you. You are probably bisexual, and none of your bandmates realize that you run the instagram page and all of their social media fans are really your fans.</p>
+      <div class="answer card" style="width: 32rem;" id=a22>
+        <img class="card-img-top" src="https://i.ytimg.com/vi/_F5I5g8siFo/maxresdefault.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play BASS!</h4>
+          <p class="card-text">You're the person in the band who holds down the bottom. Keeping good time with the drums isn't easy, but let's be real: you play one note at a time on an instrument with only four strings. You don't stand out on stage
+            but look cool anytime someone looks over to you. You are probably bisexual, and none of your bandmates realize that you run the instagram page and all of their social media fans are really your fans.</p>
+        </div>
       </div>
-      <div class="answer" id=a32>
-        <h4>You play LEAD GUITAR!</h4>
-        <img src="https://www.guitarplayer.com/.image/t_share/MTUxNDE4Mjk4NjU5ODQxMjc5/image-placeholder-title.jpg">
-        <p>Your favorite things to say are "Can you turn me up?" and "I think this would be a great place for a guitar solo." You watched <em>A Goofy Movie</em> when you were four years old and thought Max was the coolest in the world. You decided
-          you were going to play guitar, and you never revisited that dream. Your pal who plays rhythm guitar is probably a better player but you have more pedals.</p>
+      <div class="answer card" style="width: 32rem;" id=a32>
+        <img class="card-img-top" src="https://www.guitarplayer.com/.image/t_share/MTUxNDE4Mjk4NjU5ODQxMjc5/image-placeholder-title.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play LEAD GUITAR!</h4>
+          <p class="card-text">Your favorite things to say are "Can you turn me up?" and "I think this would be a great place for a guitar solo." You watched <em>A Goofy Movie</em> when you were four years old and thought Max was the coolest in the
+            world. You decided
+            you were going to play guitar, and you never revisited that dream. Your pal who plays rhythm guitar is probably a better player but you have more pedals.</p>
+        </div>
       </div>
-      <div class="answer" id=a13>
-        <h4>You are the LEAD SINGER!</h4>
-        <img src="https://www.washingtonpost.com/resizer/_H9h7x5WaQ-i_orXh_6YsZp5t9Q=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DEWS2ABZ7EI6TMIL6BNCFZ2YMU.jpg">
-        <p>You are the face of the band. You like answering questions about the deep meaning of your songs, even though technically speaking all of your songs are written by the bass player. You're not so big on "practicing" or "counting" or "getting
-          the right notes," but the fans are used to seeing you so it's too late to make any changes.</p>
+      <div class="answer card" style="width: 32rem;" id=a13>
+        <img class="card-img-top" src="https://www.washingtonpost.com/resizer/_H9h7x5WaQ-i_orXh_6YsZp5t9Q=/1484x0/arc-anglerfish-washpost-prod-washpost.s3.amazonaws.com/public/DEWS2ABZ7EI6TMIL6BNCFZ2YMU.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You are the LEAD SINGER!</h4>
+          <p class="card-text">You are the face of the band. You like answering questions about the deep meaning of your songs, even though technically speaking all of your songs are written by the bass player. You're not so big on "practicing" or "counting" or "getting
+            the right notes," but the fans are used to seeing you so it's too late to make any changes.</p>
+        </div>
       </div>
-      <div class="answer" id=a23>
-        <h4>You are the WEIRD PERSON IN THE BACK WITH A LAPTOP!</h4>
-        <img src="https://sonicscoop.com/wp-content/uploads/2014/07/iasa1520-300x300.jpg">
-        <p>You didn't get into music to set up laptops on stage and click a mouse to trigger samples. Unfortunately, you were not very good at performing live. Since you were better at using computers than the rest of your bandmates anyway, when it came time to set up the tour this was the spot you were given. At least this way you can pretend to be a DJ on Tinder.</p>
+      <div class="answer card" style="width: 32rem;" id=a23>
+        <img class="card-img-top" src="https://sonicscoop.com/wp-content/uploads/2014/07/iasa1520-300x300.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You are the WEIRD PERSON IN THE BACK WITH A LAPTOP!</h4>
+          <p class="card-text">You didn't get into music to set up laptops on stage and click a mouse to trigger samples. Unfortunately, you were not very good at performing live. Since you were better at using computers than the rest of your
+            bandmates anyway, when it
+            came time to set up the tour this was the spot you were given. At least this way you can pretend to be a DJ on Tinder.</p>
+        </div>
       </div>
-      <div class="answer" id=a33>
-        <h4>You play the SAXOPHONE!</h4>
-        <img src="https://i.pinimg.com/originals/98/a2/6f/98a26f2b92508cbc9acb14058dd6d801.jpg">
-        <p>Ten years ago the band had a radio hit with an ironic saxophone solo. Little did they know that they would have to unironically hire a sax player to go on tour with them for the rest of their career. Your best friend is the person who plays handbells on the other big hit, you both have a lot of downtime.</p>
+      <div class="answer card" style="width: 32rem;" id=a33>
+        <img class="card-img-top" src="https://i.pinimg.com/originals/98/a2/6f/98a26f2b92508cbc9acb14058dd6d801.jpg">
+        <div class="card-body">
+          <h4 class="card-title">You play the SAXOPHONE!</h4>
+          <p class="card-text">Ten years ago the band had a radio hit with an ironic saxophone solo. Little did they know that they would have to unironically hire a sax player to go on tour with them for the rest of their career. Your best friend is
+            the person who
+            plays handbells on the other big hit, you both have a lot of downtime.</p>
+        </div>
       </div>
+      <button type="reset" class="btn btn-danger mb-2" id="again">Take the test again</button>
     </div>
-<button type="reset" class="btn btn-danger mb-2" id="again">Take the test again</button>
+  </div>
 </body>
-
 </html>

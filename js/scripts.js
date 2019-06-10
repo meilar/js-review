@@ -21,7 +21,6 @@ $(document).ready(function() {
     } else {
 
     };
-    alert("after elses");
     $(".main-body").hide();
     $("#again").show();
     event.preventDefault();
